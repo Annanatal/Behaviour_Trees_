@@ -15,6 +15,8 @@ public class Leaf : Node
         name = n;
         ProcessMethod = pm;
     }
+    
+    
     public override Status Process()
     {
         if (ProcessMethod != null)
